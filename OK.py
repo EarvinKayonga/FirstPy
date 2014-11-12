@@ -19,10 +19,14 @@ def printable(nb, max=10):
 
 def gain(mise, nombre, tirage):#Fonction qui calcule les gains du joueur
 
-    print('Attention, Rien ne va plus')
-    print "Tirage: ", tirage
+    print('Attention, Rien ne va plus!!')
+    print "Le Tirage: ", tirage
     i = 0
-    while
+    while i < 10:
+        print('--------------------------------------------')
+        i = i + 1
+
+
     if tirage == nombre:
         print "Bravo Vous avez gagné ", mise * 3 , " dollars"
         return
